@@ -12,7 +12,7 @@ function About() {
 
       <div className="container about__container">
         <div className="about__me">
-          <img src={ME} alt="about-me.jpg" />
+          <img className='about__me--image' src={ME} alt="about-me.jpg" />
         </div>
 
         <div className="about__content">
@@ -35,6 +35,9 @@ function About() {
               <small>+10 Projects</small>
             </article>
           </div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio culpa assumenda quis quibusdam consectetur quisquam, magnam quo quia laborum totam blanditiis deserunt exercitationem velit perferendis quod quaerat labore, nulla unde.</p>
+
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>
